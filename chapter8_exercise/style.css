@@ -1,0 +1,54 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.l-main{
+  max-width: 960px;
+  margin: auto;
+  padding: 50px 0;
+}
+
+.top-list{
+
+}
+
+.top-list_item{
+  max-width: 960px;
+  padding: 20px;
+}
+
+.top-list_item:nth-child(odd){
+  max-width: 960px;
+  background-color: #f7f7f7;
+}
+
+.top-box{
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.top-box_item{
+  width: 30%;
+  height: 200px;
+  background-color: yellow;
+}
+
+.top-box_item:nth-child(4n+1){
+  background-color: orange;;
+}
+
+.top-box_item:nth-child(3n){
+  margin-left: 5%
+}
+
+.top-box_item:nth-child(3n+2){
+  margin-left: 5%
+}
+
+.top-box_item:nth-child(n+4){
+  margin-top: 40px;
+}
