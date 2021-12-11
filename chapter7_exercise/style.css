@@ -34,5 +34,10 @@
 
 }
 .top-blog_link{
+  color: black;
+}
 
+.top-blog_link:hover{
+  color:goldenrod ;
+  transition: .3s;
 }
